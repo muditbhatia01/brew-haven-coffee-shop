@@ -1,0 +1,16 @@
+:root { --coffee:#38251d; --cream:#f7f1e8; --caramel:#b77945; }
+body { background:#fcfaf7; color:#2e2926; min-height:100vh; display:flex; flex-direction:column; }
+main { flex:1; }
+.coffee-nav { background:var(--coffee); }
+.hero { background:linear-gradient(115deg,rgba(35,22,16,.88),rgba(35,22,16,.38)),url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1800&q=85') center/cover; color:white; border-radius:1.2rem; padding:5rem 2rem; }
+.hero p { max-width:560px; }
+.section-title { color:var(--coffee); }
+.product-card { border:0; border-radius:1rem; overflow:hidden; box-shadow:0 8px 25px rgba(42,28,19,.08); height:100%; }
+.product-card img { height:210px; object-fit:cover; background:var(--cream); }
+.price { color:#8a4d26; font-weight:700; font-size:1.1rem; }
+.btn-coffee { background:var(--coffee); color:#fff; border-color:var(--coffee); }
+.btn-coffee:hover { background:#54382a; color:#fff; }
+.site-footer { background:var(--coffee); color:#f7f1e8; }
+.form-card { max-width:620px; margin:0 auto; background:white; border-radius:1rem; padding:2rem; box-shadow:0 8px 25px rgba(42,28,19,.08); }
+.table td,.table th { vertical-align:middle; }
+.product-thumb { width:68px; height:54px; object-fit:cover; border-radius:.4rem; }
